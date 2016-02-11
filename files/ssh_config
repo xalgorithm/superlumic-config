@@ -1,10 +1,116 @@
-Host *.cloud.kunstmaan.com
-   ServerAliveInterval 60
-   Port 9999
+host penguin
+hostname www.funky-penguin.com
+user xalgorithm
+ServerAliveInterval 30
+ServerAliveCountMax 240
 
-Host git.kunstmaan.be
-   ServerAliveInterval 60
-   Port 9999
+host 134.79.129.223
+user centos
+IdentityFile ~/.ssh/dc-pem.pem
 
-Host *
-  ServerAliveInterval 60
+#Host jenkins
+#User xalg
+#HostName 134.79.129.233
+#IdentityFile ~/.ssh/id_rsa
+
+Host xalg
+User xalg
+HostName xalg.im
+IdentityFile ~/.ssh/id_rsa
+
+Host flora
+User xalg
+HostName flora.slac.stanford.edu
+IdentityFile ~/.ssh/id_rsa
+
+Host iris
+User xalg
+HostName iris.slac.stanford.edu
+IdentityFile ~/.ssh/id_rsa
+
+Host aegir
+User xalg
+HostName aegir.slac.stanford.edu
+IdentityFile ~/.ssh/id_rsa
+
+Host jenkinsbot1
+HostName 134.79.129.238
+IdentityFile ~/.ssh/jenkins_rsa
+
+Host jenkinsbot2
+HostName 134.79.129.239
+IdentityFile ~/.ssh/jenkins_rsa
+
+Host jenkins
+HostName 134.79.129.233
+IdentityFile ~/.ssh/jenkins_rsa
+
+Host homexps
+User vincent
+HostName homexps
+IdentityFile ~/.ssh/id_rsa
+
+Host liquid
+User xalg
+HostName xalg-liquid.slac.stanford.edu
+IdentityFile ~/.ssh/id_rsa
+
+#host gaia
+#hostname gaia.aristotle.net
+#user v.flesouras
+#ServerAliveInterval 30
+#ServerAliveCountMax 240
+
+#host ubuntudev
+#hostname ubuntudev.aristotle.net
+#user vincent
+#ServerAliveInterval 30
+#ServerAliveCountMax 240
+
+#host alpha
+#hostname alphaweb.yourwebpress.com
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host alpha2
+#hostname alphaweb2.yourwebpress.com
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host ymail 
+#hostname mail.yourwebpress.com
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host db1
+#hostname db1.yourwebpress.com
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host cloudweb
+#hostname 108.171.174.51
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host cloudmail
+#hostname 108.166.107.85
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host hyperion
+#hostname hyperion.aristotle.net
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
+
+#host argo
+#hostname argonaut.aristotle.net
+#user v.flesouras
+#ServerAliveInterval 20
+#ServerAliveCountMax 240
